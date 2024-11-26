@@ -1,7 +1,7 @@
 package com.example;
 
 import java.util.List;
-
+// класс животные
 public class Animal {
 
     public List<String> getFood(String animalKind) throws Exception {

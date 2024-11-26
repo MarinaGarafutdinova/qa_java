@@ -32,7 +32,7 @@ import static org.junit.Assert.assertEquals;
             List<String> expectedFood = List.of("Животные", "Птицы", "Рыба");
             Mockito.when(feline.eatMeat()).thenReturn(expectedFood);
             List<String> actual = cat.getFood();
-            assertEquals("Эта еде не подходит кошкам", expectedFood, actual);
+            assertEquals("Эта еде не подходит для кошек", expectedFood, actual);
         }
 
     }
