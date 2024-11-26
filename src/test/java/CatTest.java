@@ -22,7 +22,7 @@ import static org.junit.Assert.assertEquals;
             Cat cat = new Cat(feline);
             String expected = "Мяу";
             String actual = cat.getSound();
-            assertEquals("Это не мяуканье кошки", expected, actual);
+            assertEquals("Это не похоже на мяуканье кошки", expected, actual);
         }
 
         //что едят кошки
@@ -32,7 +32,7 @@ import static org.junit.Assert.assertEquals;
             List<String> expectedFood = List.of("Животные", "Птицы", "Рыба");
             Mockito.when(feline.eatMeat()).thenReturn(expectedFood);
             List<String> actual = cat.getFood();
-            assertEquals("Эта еде не подходит кошкам", expectedFood, actual);
+            assertEquals("Эта еде не подходит для кошек", expectedFood, actual);
         }
 
     }

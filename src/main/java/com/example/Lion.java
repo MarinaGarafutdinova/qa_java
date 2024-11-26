@@ -6,7 +6,7 @@ public class Lion extends Feline{
 
     private final Feline feline;
     boolean hasMane;
-
+    // класс львы
     public Lion(String sex, Feline feline) throws Exception {
         this.feline = feline;
 

@@ -1,7 +1,7 @@
 package com.example;
 
 import java.util.List;
-
+// класс кошки
 public class Cat extends Feline {
 
     Predator predator;

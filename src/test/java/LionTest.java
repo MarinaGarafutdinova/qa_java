@@ -22,7 +22,7 @@ import java.util.List;
             Lion lion = new Lion("Самец", feline);
             boolean expectedHaseMane = true;
             boolean actualHaseMane = lion.doesHaveMane();
-            Assert.assertEquals("Это не самец", actualHaseMane, expectedHaseMane);
+            Assert.assertEquals("Это  кажется не самец", actualHaseMane, expectedHaseMane);
         }
 
 
@@ -55,7 +55,7 @@ import java.util.List;
             List<String> expected = List.of("Животные", "Птицы", "Рыба");
             Mockito.when(feline.getFood("Хищник")).thenReturn(List.of("Животные", "Птицы", "Рыба"));
             List<String> actual = lion.getFood();
-            Assert.assertEquals("Эта еда не подходит львам", expected, actual);
+            Assert.assertEquals("Эта еда не подходит для львов", expected, actual);
         }
 
 
