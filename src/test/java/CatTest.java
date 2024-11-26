@@ -22,7 +22,7 @@ import static org.junit.Assert.assertEquals;
             Cat cat = new Cat(feline);
             String expected = "Мяу";
             String actual = cat.getSound();
-            assertEquals("Это не мяуканье кошки", expected, actual);
+            assertEquals("Это не похоже на мяуканье кошки", expected, actual);
         }
 
         //что едят кошки

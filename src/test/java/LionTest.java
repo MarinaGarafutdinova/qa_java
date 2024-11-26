@@ -22,7 +22,7 @@ import java.util.List;
             Lion lion = new Lion("Самец", feline);
             boolean expectedHaseMane = true;
             boolean actualHaseMane = lion.doesHaveMane();
-            Assert.assertEquals("Это не самец", actualHaseMane, expectedHaseMane);
+            Assert.assertEquals("Это  кажется не самец", actualHaseMane, expectedHaseMane);
         }
 
 
